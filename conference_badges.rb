@@ -33,9 +33,7 @@ badges.each do |badge|
   puts badge
 end
 
-assignments.each do |a|
-  puts a
-end
+
 
 
 
