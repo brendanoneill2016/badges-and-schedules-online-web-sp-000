@@ -17,7 +17,7 @@ def assign_rooms(array)
   
   rooms = [1..7]
   names = array
-  assignments = []
+  assignments = {}
   
   array.each do |n|
     assignments << n
