@@ -18,7 +18,7 @@ def assign_rooms(array)
   assignments = []
   
   array.each_with_index do |n, index|
-    assignments <<  "Hello. #{n}! You'll be assigned to room #{index}!"
+    assignments <<  "Hello. #{n}! You'll be assigned to room #{index + 1}!"
   end
   
   return assignments
