@@ -14,8 +14,15 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
+  
   rooms = [1..7]
-  room_assignments = []
+  names = array
+  assignments = []
+  
+  array.each do |n|
+    assignments << n
+    
+  
   
   
 
